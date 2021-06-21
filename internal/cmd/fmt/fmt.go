@@ -7,12 +7,12 @@ import (
 	"os"
 	"strings"
 
-	"github.com/aws-cloudformation/rain/cft/format"
-	"github.com/aws-cloudformation/rain/internal/cmd"
-	"github.com/aws-cloudformation/rain/internal/console"
-	"github.com/aws-cloudformation/rain/internal/ui"
+	"github.com/jumziey/rain/cft/format"
+	"github.com/jumziey/rain/internal/cmd"
+	"github.com/jumziey/rain/internal/console"
+	"github.com/jumziey/rain/internal/ui"
 
-	"github.com/aws-cloudformation/rain/cft/parse"
+	"github.com/jumziey/rain/cft/parse"
 	"github.com/spf13/cobra"
 )
 

@@ -3,11 +3,11 @@ package merge
 import (
 	"fmt"
 
-	"github.com/aws-cloudformation/rain/cft"
-	"github.com/aws-cloudformation/rain/cft/format"
-	"github.com/aws-cloudformation/rain/cft/parse"
-	"github.com/aws-cloudformation/rain/internal/cmd"
-	"github.com/aws-cloudformation/rain/internal/ui"
+	"github.com/jumziey/rain/cft"
+	"github.com/jumziey/rain/cft/format"
+	"github.com/jumziey/rain/cft/parse"
+	"github.com/jumziey/rain/internal/cmd"
+	"github.com/jumziey/rain/internal/ui"
 	"github.com/spf13/cobra"
 )
 

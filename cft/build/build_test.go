@@ -1,8 +1,8 @@
 package build_test
 
 import (
-	"github.com/aws-cloudformation/rain/cft/build"
-	"github.com/aws-cloudformation/rain/cft/spec"
+	"github.com/jumziey/rain/cft/build"
+	"github.com/jumziey/rain/cft/spec"
 	"testing"
 )
 

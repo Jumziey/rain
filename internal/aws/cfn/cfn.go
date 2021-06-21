@@ -11,9 +11,9 @@ import (
 
 	smithy "github.com/aws/smithy-go"
 
-	"github.com/aws-cloudformation/rain/cft"
-	"github.com/aws-cloudformation/rain/internal/aws"
-	"github.com/aws-cloudformation/rain/internal/config"
+	"github.com/jumziey/rain/cft"
+	"github.com/jumziey/rain/internal/aws"
+	"github.com/jumziey/rain/internal/config"
 	"github.com/aws/aws-sdk-go-v2/service/cloudformation"
 	"github.com/aws/aws-sdk-go-v2/service/cloudformation/types"
 	"github.com/aws/smithy-go/ptr"

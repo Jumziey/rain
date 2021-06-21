@@ -6,13 +6,13 @@ import (
 	"path/filepath"
 	"regexp"
 
-	"github.com/aws-cloudformation/rain/internal/aws"
-	"github.com/aws-cloudformation/rain/internal/aws/cfn"
-	"github.com/aws-cloudformation/rain/internal/cmd"
-	"github.com/aws-cloudformation/rain/internal/config"
-	"github.com/aws-cloudformation/rain/internal/console"
-	"github.com/aws-cloudformation/rain/internal/console/spinner"
-	"github.com/aws-cloudformation/rain/internal/ui"
+	"github.com/jumziey/rain/internal/aws"
+	"github.com/jumziey/rain/internal/aws/cfn"
+	"github.com/jumziey/rain/internal/cmd"
+	"github.com/jumziey/rain/internal/config"
+	"github.com/jumziey/rain/internal/console"
+	"github.com/jumziey/rain/internal/console/spinner"
+	"github.com/jumziey/rain/internal/ui"
 
 	"github.com/aws/smithy-go/ptr"
 	"github.com/spf13/cobra"
@@ -120,7 +120,6 @@ The bucket's name will be of the format rain-artifacts-<AWS account id>-<AWS reg
 						panic(ui.Errorf(err, "error deleting empty stack '%s'", stackName))
 					}
 				}
-
 				panic(errors.New("user cancelled deployment"))
 			}
 		}

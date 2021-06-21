@@ -13,11 +13,11 @@ import (
 	"github.com/aws/smithy-go/ptr"
 	"github.com/google/uuid"
 
-	"github.com/aws-cloudformation/rain/internal/aws"
-	"github.com/aws-cloudformation/rain/internal/aws/sts"
-	"github.com/aws-cloudformation/rain/internal/config"
-	"github.com/aws-cloudformation/rain/internal/console"
-	"github.com/aws-cloudformation/rain/internal/console/spinner"
+	"github.com/jumziey/rain/internal/aws"
+	"github.com/jumziey/rain/internal/aws/sts"
+	"github.com/jumziey/rain/internal/config"
+	"github.com/jumziey/rain/internal/console"
+	"github.com/jumziey/rain/internal/console/spinner"
 )
 
 func getClient() *s3.Client {

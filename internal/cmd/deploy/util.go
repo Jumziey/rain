@@ -8,14 +8,14 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/aws-cloudformation/rain/cft"
-	"github.com/aws-cloudformation/rain/cft/parse"
-	"github.com/aws-cloudformation/rain/internal/aws/cfn"
-	"github.com/aws-cloudformation/rain/internal/aws/s3"
-	"github.com/aws-cloudformation/rain/internal/config"
-	"github.com/aws-cloudformation/rain/internal/console"
-	"github.com/aws-cloudformation/rain/internal/console/spinner"
-	"github.com/aws-cloudformation/rain/internal/ui"
+	"github.com/jumziey/rain/cft"
+	"github.com/jumziey/rain/cft/parse"
+	"github.com/jumziey/rain/internal/aws/cfn"
+	"github.com/jumziey/rain/internal/aws/s3"
+	"github.com/jumziey/rain/internal/config"
+	"github.com/jumziey/rain/internal/console"
+	"github.com/jumziey/rain/internal/console/spinner"
+	"github.com/jumziey/rain/internal/ui"
 	"github.com/aws/aws-sdk-go-v2/service/cloudformation"
 	"github.com/aws/aws-sdk-go-v2/service/cloudformation/types"
 	"github.com/aws/smithy-go/ptr"
@@ -179,7 +179,7 @@ func packageTemplate(fn string, yes bool) cft.Template {
 		"--s3-bucket", s3.RainBucket(yes),
 	)
 	if err != nil {
-		panic(ui.Errorf(err, "unable to package template"))
+		panic(ui.Errorf(err, "unable to package template", outputFn.Name()))
 	}
 
 	config.Debugf("Package output: %s", output)

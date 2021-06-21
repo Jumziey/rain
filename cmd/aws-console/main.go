@@ -3,9 +3,9 @@ package main
 import (
 	"github.com/spf13/cobra"
 
-	"github.com/aws-cloudformation/rain/internal/cmd"
-	"github.com/aws-cloudformation/rain/internal/cmd/console"
-	"github.com/aws-cloudformation/rain/internal/config"
+	"github.com/jumziey/rain/internal/cmd"
+	"github.com/jumziey/rain/internal/cmd/console"
+	"github.com/jumziey/rain/internal/config"
 )
 
 var printOnly = false

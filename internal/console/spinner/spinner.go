@@ -7,7 +7,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/aws-cloudformation/rain/internal/console"
+	"github.com/jumziey/rain/internal/console"
 )
 
 var spin = []string{"˙", "·", ".", " "}

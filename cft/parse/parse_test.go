@@ -6,7 +6,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/aws-cloudformation/rain/cft/parse"
+	"github.com/jumziey/rain/cft/parse"
 	"github.com/google/go-cmp/cmp"
 )
 

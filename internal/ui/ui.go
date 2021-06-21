@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/aws-cloudformation/rain/internal/config"
-	"github.com/aws-cloudformation/rain/internal/console/run"
+	"github.com/jumziey/rain/internal/config"
+	"github.com/jumziey/rain/internal/console/run"
 	smithy "github.com/aws/smithy-go"
 )
 

@@ -1,8 +1,8 @@
 package build
 
 import (
-	"github.com/aws-cloudformation/rain/cft"
-	"github.com/aws-cloudformation/rain/cft/spec"
+	"github.com/jumziey/rain/cft"
+	"github.com/jumziey/rain/cft/spec"
 )
 
 // iamBuilder contains specific code for building IAM policies

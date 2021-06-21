@@ -2,13 +2,13 @@ package build
 
 import (
 	"fmt"
-	"github.com/aws-cloudformation/rain/internal/cmd"
+	"github.com/jumziey/rain/internal/cmd"
 	"sort"
 	"strings"
 
-	"github.com/aws-cloudformation/rain/cft/build"
-	"github.com/aws-cloudformation/rain/cft/format"
-	"github.com/aws-cloudformation/rain/cft/spec"
+	"github.com/jumziey/rain/cft/build"
+	"github.com/jumziey/rain/cft/format"
+	"github.com/jumziey/rain/cft/spec"
 	"github.com/spf13/cobra"
 )
 

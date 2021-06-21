@@ -5,7 +5,7 @@ package format
 import (
 	"strings"
 
-	"github.com/aws-cloudformation/rain/cft"
+	"github.com/jumziey/rain/cft"
 	"gopkg.in/yaml.v3"
 )
 

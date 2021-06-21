@@ -22,9 +22,9 @@ Key features:
 
 If you have [homebrew](https://brew.sh/) installed, `brew install rain`
 
-Or you can download the appropriate binary for your system from [the releases page](https://github.com/aws-cloudformation/rain/releases).
+Or you can download the appropriate binary for your system from [the releases page](https://github.com/jumziey/rain/releases).
 
-Or if you're a [Gopher](https://blog.golang.org/gopher), you can `GO111MODULE=on go get github.com/aws-cloudformation/rain/cmd/rain`
+Or if you're a [Gopher](https://blog.golang.org/gopher), you can `GO111MODULE=on go get github.com/jumziey/rain/cmd/rain`
 
 Rain requires the [AWS CLI](https://aws.amazon.com/cli/) to package CloudFormation templates when you use `rain deploy`.
 (See the [`aws cloudformation package`](https://docs.aws.amazon.com/cli/latest/reference/cloudformation/package.html) command for details.)
@@ -60,7 +60,7 @@ You can find shell completion scripts in [docs/bash_completion.sh](./docs/bash_c
 
 Rain is written in [Go](https://golang.org/) and uses the [AWS SDK for Go v2](https://github.com/aws/aws-sdk-go-v2).
 
-To contribute a change to Rain, just [fork this repository](https://github.com/aws-cloudformation/rain/fork), make your changes, and submit a Pull Request.
+To contribute a change to Rain, just [fork this repository](https://github.com/jumziey/rain/fork), make your changes, and submit a Pull Request.
 
 ## License
 

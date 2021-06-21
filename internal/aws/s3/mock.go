@@ -5,8 +5,8 @@ package s3
 import (
 	"fmt"
 
-	"github.com/aws-cloudformation/rain/internal/aws"
-	"github.com/aws-cloudformation/rain/internal/config"
+	"github.com/jumziey/rain/internal/aws"
+	"github.com/jumziey/rain/internal/config"
 	"github.com/google/uuid"
 )
 

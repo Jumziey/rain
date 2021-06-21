@@ -9,9 +9,9 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	"github.com/aws-cloudformation/rain/internal/cmd"
-	"github.com/aws-cloudformation/rain/internal/cmd/rain"
-	"github.com/aws-cloudformation/rain/internal/console"
+	"github.com/jumziey/rain/internal/cmd"
+	"github.com/jumziey/rain/internal/cmd/rain"
+	"github.com/jumziey/rain/internal/console"
 )
 
 func wrap(t *testing.T, args []string, expectedOut, expectedErr string, expectedCode int) {

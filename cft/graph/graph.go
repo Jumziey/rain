@@ -7,8 +7,8 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/aws-cloudformation/rain/cft"
-	"github.com/aws-cloudformation/rain/internal/config"
+	"github.com/jumziey/rain/cft"
+	"github.com/jumziey/rain/internal/config"
 )
 
 // Node represents a top-level entry in a CloudFormation template

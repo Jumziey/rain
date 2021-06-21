@@ -10,9 +10,9 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/aws-cloudformation/rain/internal/aws"
-	"github.com/aws-cloudformation/rain/internal/aws/cfn"
-	"github.com/aws-cloudformation/rain/internal/aws/sts"
+	"github.com/jumziey/rain/internal/aws"
+	"github.com/jumziey/rain/internal/aws/cfn"
+	"github.com/jumziey/rain/internal/aws/sts"
 	"github.com/aws/smithy-go/ptr"
 )
 

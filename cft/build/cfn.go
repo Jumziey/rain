@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/aws-cloudformation/rain/cft"
-	"github.com/aws-cloudformation/rain/cft/parse"
-	"github.com/aws-cloudformation/rain/cft/spec"
+	"github.com/jumziey/rain/cft"
+	"github.com/jumziey/rain/cft/parse"
+	"github.com/jumziey/rain/cft/spec"
 )
 
 // cfnBuilder contains specific code for building cloudformation templates

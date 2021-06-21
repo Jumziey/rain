@@ -3,7 +3,7 @@ package rain_test
 import (
 	"os"
 
-	"github.com/aws-cloudformation/rain/internal/cmd/rain"
+	"github.com/jumziey/rain/internal/cmd/rain"
 )
 
 func Example_rainhelp() {

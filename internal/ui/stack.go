@@ -8,9 +8,9 @@ import (
 
 	"github.com/aws/smithy-go/ptr"
 
-	"github.com/aws-cloudformation/rain/internal/aws/cfn"
-	"github.com/aws-cloudformation/rain/internal/console"
-	"github.com/aws-cloudformation/rain/internal/console/spinner"
+	"github.com/jumziey/rain/internal/aws/cfn"
+	"github.com/jumziey/rain/internal/console"
+	"github.com/jumziey/rain/internal/console/spinner"
 	"github.com/aws/aws-sdk-go-v2/service/cloudformation/types"
 )
 

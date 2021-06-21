@@ -3,10 +3,10 @@ package cfn
 import (
 	"fmt"
 
-	"github.com/aws-cloudformation/rain/cft"
-	"github.com/aws-cloudformation/rain/cft/format"
-	"github.com/aws-cloudformation/rain/internal/aws/s3"
-	"github.com/aws-cloudformation/rain/internal/config"
+	"github.com/jumziey/rain/cft"
+	"github.com/jumziey/rain/cft/format"
+	"github.com/jumziey/rain/internal/aws/s3"
+	"github.com/jumziey/rain/internal/config"
 	"github.com/aws/aws-sdk-go-v2/service/cloudformation/types"
 	"github.com/aws/smithy-go/ptr"
 )

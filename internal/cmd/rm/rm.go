@@ -4,11 +4,11 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/aws-cloudformation/rain/internal/aws/cfn"
-	"github.com/aws-cloudformation/rain/internal/cmd"
-	"github.com/aws-cloudformation/rain/internal/console"
-	"github.com/aws-cloudformation/rain/internal/console/spinner"
-	"github.com/aws-cloudformation/rain/internal/ui"
+	"github.com/jumziey/rain/internal/aws/cfn"
+	"github.com/jumziey/rain/internal/cmd"
+	"github.com/jumziey/rain/internal/console"
+	"github.com/jumziey/rain/internal/console/spinner"
+	"github.com/jumziey/rain/internal/ui"
 	"github.com/spf13/cobra"
 )
 

@@ -7,8 +7,8 @@ import (
 	"io"
 	"io/ioutil"
 
-	"github.com/aws-cloudformation/rain/cft"
-	"github.com/aws-cloudformation/rain/cft/diff"
+	"github.com/jumziey/rain/cft"
+	"github.com/jumziey/rain/cft/diff"
 
 	"gopkg.in/yaml.v3"
 )

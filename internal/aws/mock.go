@@ -8,8 +8,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/aws-cloudformation/rain/internal/config"
-	"github.com/aws-cloudformation/rain/internal/console/spinner"
+	"github.com/jumziey/rain/internal/config"
+	"github.com/jumziey/rain/internal/console/spinner"
 	"github.com/aws/aws-sdk-go-v2/aws"
 )
 
